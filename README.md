@@ -22,7 +22,7 @@ The configuration JSON contains the following keys:
 - `name`: Identifier for the configuration.
 - `value`: Specific value, range, or options for the UI components.
 - `label`: Display label for the UI component.
-- `placeholder`: Placeholder text for the input fields.
+- `Placeholder`: Placeholder text for the input fields.
 
 ## Formulas
 
@@ -56,31 +56,19 @@ git clone https://github.com/saurabh10022000/Flutter-Loan-Application.git
 cd Flutter-Loan-Application
 Install Dependencies Run the following command to install all required dependencies:
 
-bash
-Copy
-Edit
 flutter pub get
-Run the Application Start the Flutter application using:
 
-bash
-Copy
-Edit
 flutter run
-Build for the Web If you'd like to build the application for web deployment, run:
 
-bash
-Copy
-Edit
 flutter build web
-The build files will be available in the /build/web directory.
 
-Configuration File
-The application fetches its configurations from the following API:
+The build files will be available in the /build/web directory.
 
 Configuration JSON
 
 Example Configuration:
-json
+
+JSON
 Copy
 Edit
 [
@@ -94,11 +82,17 @@ Edit
     "revenue_percentage_max": 10.0
   }
 ]
+
 Keys and Their Uses:
+
 revenue_percentage: Percentage of revenue shared.
-placeholder: Placeholder text for the input field.
+
+Placeholder: Placeholder text for the input field.
+
 funding_amount_min / funding_amount_max: Slider limits for loan amounts.
+
 revenue_percentage_min / revenue_percentage_max: Limits for the calculated Revenue Share Percentage.
+
 Formulas Used
 Revenue Share Percentage:
 
@@ -173,38 +167,15 @@ Results Section:
 How to Contribute
 Fork the repository.
 Create a new branch:
-bash
-Copy
-Edit
+
 git checkout -b feature-name
 Commit your changes:
-bash
-Copy
-Edit
+
 git commit -m "Add new feature"
 Push to the branch:
-bash
-Copy
-Edit
+
 git push origin feature-name
-Create a pull request.
-License
-This project is open-source and available under the MIT License.
 
-Author
-Saurabh Jain
-GitHub: saurabh10022000
-yaml
-Copy
-Edit
-
----
-
-### Instructions to Add to GitHub
-
-1. **Create a `README.md` File**:
-   ```bash
-   touch README.md
 Paste the above content into the README.md file.
 
 Commit and Push:
